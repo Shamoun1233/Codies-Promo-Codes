@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robux Codes</title>
+</head>
+<body>
+    <h1 class="title">The robux codes:</h1>
+    <p class="p">This is a tutorial step by step on how to get the codes.</p>
+    <p class="p">With the codes you can boost your chances of winning the giveaways</p>
+    <p class="p">(robux). So the first thing to do is to message one of the owners or editors </p>
+    <p class="p">for the button code. When you have the button code, put it in the</p>
+    <p class="p">writing section after clicking the button.</p>
+    <p class="p">Follow the rest of the steps later.</p>
+
+    <button id="cd">CODE BUTTON</button>
+<style>
+    .title{
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .p{
+        text-align: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    #output{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        left: 688px;
+        text-decoration: underline;
+        position: relative;
+        top: 100px;
+    }
+
+    #cd{
+        border-radius: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        left: 666px;
+        top: 100px;
+        border-width: 0px;
+        background-color: rgb(126, 124, 124);
+    }
+
+    #cd:hover{
+        animation: hover 0.55s ease-in-out forwards;
+    }
+
+    
+    @keyframes hover {
+            from{
+                transform: scale(1);
+            }
+
+            to{
+                transform: scale(2);
+            }
+        }
+
+</style>
+<div id="output"></div>
+<script>
+    let button = document.getElementById("cd");
+    button.addEventListener("click", function(){
+    let userInput = prompt("Type the code:")
+    if (userInput === "soloring2025"){
+        
+        document.getElementById("output").innerHTML = "Valid code, copy this: xy7x2s";
+        alert("Take the code and send it to Strimon. or saltedfries76 , be aware that this method only works during giveaways.")
+    }
+
+    else{
+        document.getElementById("output").innerHTML = "Invalid code"
+    }
+    })
+</script>
+
+</body>
+</html>
